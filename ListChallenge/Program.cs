@@ -16,7 +16,15 @@ namespace ListChallenge
             //List of scores
             List<int> score = new List<int> { 40, 36, 47, 24, 42, 35, 37, 31, 28 };
 
-            Console.WriteLine(names[3]);
+            int n = 0;
+
+            while (n < 9)
+            {
+                Console.WriteLine(names[n] + " has got a score of " + score[n]);
+                Console.WriteLine();
+                n++;
+            }
+            Console.ReadLine();
         }
     }
 }
